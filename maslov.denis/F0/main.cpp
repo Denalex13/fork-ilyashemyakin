@@ -54,7 +54,6 @@ int main()
     {
       std::string word = "";
       std::getline(std::cin, word);
-
       std::string translation = "";
       std::cout << "Enter the translation: ";
       std::getline(std::cin, translation);
@@ -88,7 +87,6 @@ int main()
         std::cout << "<WORD DOESN'T EXIST>" << std::endl;
       }
     }
-    
     else if (cmd != "")
     {
       std::cout << "<INVALID COMMAND>" << std::endl;
